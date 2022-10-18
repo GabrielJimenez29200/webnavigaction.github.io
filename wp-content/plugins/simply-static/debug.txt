@@ -1,0 +1,727 @@
+[2022-10-11 09:41:58] [class-ss-plugin.php:261] Received request to start generating a static archive
+[2022-10-11 09:41:58] [class-ss-archive-creation-job.php:61] Starting a job; no job is presently running
+[2022-10-11 09:41:58] [class-ss-archive-creation-job.php:62] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2022-10-11 09:41:58] [class-ss-archive-creation-job.php:76] Pushing first task to queue: setup
+[2022-10-11 09:41:59] [class-ss-archive-creation-job.php:105] Current task: setup
+[2022-10-11 09:41:59] [class-ss-archive-creation-job.php:121] Performing task: setup
+[2022-10-11 09:41:59] [class-ss-task.php:44] Status message: [setup] Mise en place
+[2022-10-11 09:41:59] [class-ss-setup-task.php:32] Creating archive directory: C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318\
+[2022-10-11 09:41:59] [class-ss-setup-task.php:77] Adding origin URL to queue: http://localhost/webNavigAction_officiel/
+[2022-10-11 09:41:59] [class-ss-archive-creation-job.php:140] We've found our next task: fetch_urls
+[2022-10-11 09:41:59] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2022-10-11 09:41:59] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
+[2022-10-11 09:41:59] [class-ss-fetch-urls-task.php:54] Total pages: 1; Pages remaining: 1
+[2022-10-11 09:41:59] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/
+[2022-10-11 09:41:59] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:41:59] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a676390b-mOH02n.tmp
+[2022-10-11 09:41:59] [class-ss-url-fetcher.php:94] Filesize: 30297 bytes
+[2022-10-11 09:41:59] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2022-10-11 09:41:59] [class-ss-url-fetcher.php:192] New filename for static page: /index.html
+[2022-10-11 09:41:59] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a676390b-mOH02n.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/index.html
+[2022-10-11 09:41:59] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:00] [class-ss-fetch-urls-task.php:133] Adding 23 URLs to the queue
+[2022-10-11 09:42:00] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:00] [class-ss-task.php:44] Status message: [fetch_urls] 0 pages/fichiers sur 1 générés
+[2022-10-11 09:42:00] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
+[2022-10-11 09:42:00] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2022-10-11 09:42:00] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
+[2022-10-11 09:42:00] [class-ss-fetch-urls-task.php:54] Total pages: 23; Pages remaining: 22
+[2022-10-11 09:42:00] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/portfolio/
+[2022-10-11 09:42:00] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:00] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a68525fa-78CHSR.tmp
+[2022-10-11 09:42:00] [class-ss-url-fetcher.php:94] Filesize: 29321 bytes
+[2022-10-11 09:42:00] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2022-10-11 09:42:00] [class-ss-url-fetcher.php:192] New filename for static page: /portfolio/index.html
+[2022-10-11 09:42:00] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a68525fa-78CHSR.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/portfolio/index.html
+[2022-10-11 09:42:00] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:00] [class-ss-fetch-urls-task.php:133] Adding 22 URLs to the queue
+[2022-10-11 09:42:00] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:00] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/2022/07/22/bonjour-tout-le-monde/
+[2022-10-11 09:42:00] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:00] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a68d4ffb-8c7Yq7.tmp
+[2022-10-11 09:42:01] [class-ss-url-fetcher.php:94] Filesize: 33622 bytes
+[2022-10-11 09:42:01] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2022-10-11 09:42:01] [class-ss-url-fetcher.php:192] New filename for static page: /2022/07/22/bonjour-tout-le-monde/index.html
+[2022-10-11 09:42:01] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a68d4ffb-8c7Yq7.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/2022/07/22/bonjour-tout-le-monde/index.html
+[2022-10-11 09:42:01] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:01] [class-ss-fetch-urls-task.php:133] Adding 27 URLs to the queue
+[2022-10-11 09:42:01] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:01] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/2022/07/
+[2022-10-11 09:42:01] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:01] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a697ed02-ianBDB.tmp
+[2022-10-11 09:42:01] [class-ss-url-fetcher.php:94] Filesize: 30461 bytes
+[2022-10-11 09:42:01] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2022-10-11 09:42:01] [class-ss-url-fetcher.php:192] New filename for static page: /2022/07/index.html
+[2022-10-11 09:42:01] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a697ed02-ianBDB.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/2022/07/index.html
+[2022-10-11 09:42:01] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:01] [class-ss-fetch-urls-task.php:133] Adding 22 URLs to the queue
+[2022-10-11 09:42:02] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:02] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/category/non-classe/
+[2022-10-11 09:42:02] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:02] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6a01aa8-ZVJmlO.tmp
+[2022-10-11 09:42:02] [class-ss-url-fetcher.php:94] Filesize: 30743 bytes
+[2022-10-11 09:42:02] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2022-10-11 09:42:02] [class-ss-url-fetcher.php:192] New filename for static page: /category/non-classe/index.html
+[2022-10-11 09:42:02] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6a01aa8-ZVJmlO.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/category/non-classe/index.html
+[2022-10-11 09:42:02] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:02] [class-ss-fetch-urls-task.php:133] Adding 24 URLs to the queue
+[2022-10-11 09:42:02] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:02] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/feed/
+[2022-10-11 09:42:02] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:02] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6a8a9d6-9GzlQ3.tmp
+[2022-10-11 09:42:02] [class-ss-url-fetcher.php:94] Filesize: 1885 bytes
+[2022-10-11 09:42:02] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2022-10-11 09:42:02] [class-ss-url-fetcher.php:192] New filename for static page: /feed/index.xml
+[2022-10-11 09:42:02] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6a8a9d6-9GzlQ3.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/feed/index.xml
+[2022-10-11 09:42:02] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:02] [class-ss-fetch-urls-task.php:133] Adding 5 URLs to the queue
+[2022-10-11 09:42:02] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:02] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/comments/feed/
+[2022-10-11 09:42:02] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:02] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6ae2fb1-iH5rXt.tmp
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:94] Filesize: 1973 bytes
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:192] New filename for static page: /comments/feed/index.xml
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6ae2fb1-iH5rXt.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/comments/feed/index.xml
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:133] Adding 4 URLs to the queue
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-includes/css/dist/block-library/style.min.css
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6b3ddc1-IGuLmg.tmp
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:94] Filesize: 88932 bytes
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:192] New filename for static page: /wp-includes/css/dist/block-library/style.min.css
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6b3ddc1-IGuLmg.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-includes/css/dist/block-library/style.min.css
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/css/blocks.css
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6b4b811-EMBGVS.tmp
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:94] Filesize: 1711 bytes
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/css/blocks.css
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6b4b811-EMBGVS.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/css/blocks.css
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/library/css/bootstrap.min.css
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6b567b3-Ssk9jY.tmp
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:94] Filesize: 160403 bytes
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/library/css/bootstrap.min.css
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6b567b3-Ssk9jY.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/library/css/bootstrap.min.css
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/library/css/slick.css
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6b64ce8-3BdUpA.tmp
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:94] Filesize: 1776 bytes
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/library/css/slick.css
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6b64ce8-3BdUpA.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/library/css/slick.css
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/library/css/slick-theme.css
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6b715b4-2rwc9E.tmp
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:94] Filesize: 3145 bytes
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/library/css/slick-theme.css
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6b715b4-2rwc9E.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/library/css/slick-theme.css
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:133] Adding 5 URLs to the queue
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/css/main.css
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6b7c043-VYJxKO.tmp
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:94] Filesize: 12621 bytes
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/css
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/css/main.css
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6b7c043-VYJxKO.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/css/main.css
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:133] Adding 30 URLs to the queue
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-json/
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6b94c75-F0uf06.tmp
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:94] Filesize: 218820 bytes
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:192] New filename for static page: /wp-json/index.html
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6b94c75-F0uf06.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-json/index.html
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-json/wp/v2/pages/5
+[2022-10-11 09:42:03] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:03] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6bf14e4-pX1GZU.tmp
+[2022-10-11 09:42:04] [class-ss-url-fetcher.php:94] Filesize: 1520 bytes
+[2022-10-11 09:42:04] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2022-10-11 09:42:04] [class-ss-url-fetcher.php:192] New filename for static page: /wp-json/wp/v2/pages/5\index.html
+[2022-10-11 09:42:04] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6bf14e4-pX1GZU.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-json/wp/v2/pages/5\index.html
+[2022-10-11 09:42:04] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:04] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:04] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:04] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/xmlrpc.php
+[2022-10-11 09:42:04] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:04] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6c5223c-KvzJy5.tmp
+[2022-10-11 09:42:04] [class-ss-url-fetcher.php:94] Filesize: 42 bytes
+[2022-10-11 09:42:04] [class-ss-url-fetcher.php:109] http_status_code: 405 | content_type: text/plain;charset=UTF-8
+[2022-10-11 09:42:04] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
+[2022-10-11 09:42:04] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-includes/wlwmanifest.xml
+[2022-10-11 09:42:04] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:04] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6caa646-rFQlpY.tmp
+[2022-10-11 09:42:04] [class-ss-url-fetcher.php:94] Filesize: 1045 bytes
+[2022-10-11 09:42:04] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/xml
+[2022-10-11 09:42:04] [class-ss-url-fetcher.php:192] New filename for static page: /wp-includes/wlwmanifest.xml
+[2022-10-11 09:42:04] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6caa646-rFQlpY.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-includes/wlwmanifest.xml
+[2022-10-11 09:42:04] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:04] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:04] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:04] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-json/oembed/1.0/embed
+[2022-10-11 09:42:04] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:04] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6cb153e-YVRjQk.tmp
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:94] Filesize: 130 bytes
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:109] http_status_code: 400 | content_type: application/json; charset=UTF-8
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-includes/js/jquery/jquery.min.js
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6d0db88-X2Nqjm.tmp
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:94] Filesize: 89521 bytes
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:192] New filename for static page: /wp-includes/js/jquery/jquery.min.js
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6d0db88-X2Nqjm.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-includes/js/jquery/jquery.min.js
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-includes/js/jquery/jquery-migrate.min.js
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6d155ed-HrOYys.tmp
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:94] Filesize: 11224 bytes
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:192] New filename for static page: /wp-includes/js/jquery/jquery-migrate.min.js
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6d155ed-HrOYys.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-includes/js/jquery/jquery-migrate.min.js
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/library/js/slick.min.js
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6d19b19-otPACu.tmp
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:94] Filesize: 42863 bytes
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/library/js/slick.min.js
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6d19b19-otPACu.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/library/js/slick.min.js
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/js/main.js
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6d2302f-CX9LAj.tmp
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:94] Filesize: 18470 bytes
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/js/main.js
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6d2302f-CX9LAj.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/js/main.js
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/library/js/bootstrap.min.js
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6d2955c-xy4Ne9.tmp
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:94] Filesize: 60174 bytes
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/library/js/bootstrap.min.js
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6d2955c-xy4Ne9.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/library/js/bootstrap.min.js
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:05] [class-ss-task.php:44] Status message: [fetch_urls] 1 pages/fichiers sur 23 générés
+[2022-10-11 09:42:05] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
+[2022-10-11 09:42:05] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2022-10-11 09:42:05] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:54] Total pages: 67; Pages remaining: 44
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-json/wp/v2/pages/17
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6d32abe-s0bpfe.tmp
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:94] Filesize: 1550 bytes
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:192] New filename for static page: /wp-json/wp/v2/pages/17\index.html
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6d32abe-s0bpfe.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-json/wp/v2/pages/17\index.html
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/2022/07/22/
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6d8dc10-JK1w3f.tmp
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:94] Filesize: 30467 bytes
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:192] New filename for static page: /2022/07/22/index.html
+[2022-10-11 09:42:05] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6d8dc10-JK1w3f.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/2022/07/22/index.html
+[2022-10-11 09:42:05] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:06] [class-ss-fetch-urls-task.php:133] Adding 22 URLs to the queue
+[2022-10-11 09:42:06] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:06] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/author/root/
+[2022-10-11 09:42:06] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:06] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6e1cab8-rkMVd2.tmp
+[2022-10-11 09:42:06] [class-ss-url-fetcher.php:94] Filesize: 31501 bytes
+[2022-10-11 09:42:06] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2022-10-11 09:42:06] [class-ss-url-fetcher.php:192] New filename for static page: /author/root/index.html
+[2022-10-11 09:42:06] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6e1cab8-rkMVd2.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/author/root/index.html
+[2022-10-11 09:42:06] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:07] [class-ss-fetch-urls-task.php:133] Adding 25 URLs to the queue
+[2022-10-11 09:42:07] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:07] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/2022/07/22/bonjour-tout-le-monde/feed/
+[2022-10-11 09:42:07] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:07] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6f15c44-3BnIel.tmp
+[2022-10-11 09:42:07] [class-ss-url-fetcher.php:94] Filesize: 2004 bytes
+[2022-10-11 09:42:07] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2022-10-11 09:42:07] [class-ss-url-fetcher.php:192] New filename for static page: /2022/07/22/bonjour-tout-le-monde/feed/index.xml
+[2022-10-11 09:42:07] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6f15c44-3BnIel.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/2022/07/22/bonjour-tout-le-monde/feed/index.xml
+[2022-10-11 09:42:07] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:07] [class-ss-fetch-urls-task.php:133] Adding 3 URLs to the queue
+[2022-10-11 09:42:07] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:07] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-json/wp/v2/posts/1
+[2022-10-11 09:42:07] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:07] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a6f7bc80-A9cAAw.tmp
+[2022-10-11 09:42:08] [class-ss-url-fetcher.php:94] Filesize: 2039 bytes
+[2022-10-11 09:42:08] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2022-10-11 09:42:08] [class-ss-url-fetcher.php:192] New filename for static page: /wp-json/wp/v2/posts/1\index.html
+[2022-10-11 09:42:08] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a6f7bc80-A9cAAw.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-json/wp/v2/posts/1\index.html
+[2022-10-11 09:42:08] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:08] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:08] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:08] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/js/single.js
+[2022-10-11 09:42:08] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:08] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a701090b-eXeV4r.tmp
+[2022-10-11 09:42:08] [class-ss-url-fetcher.php:94] Filesize: 11467 bytes
+[2022-10-11 09:42:08] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
+[2022-10-11 09:42:08] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/js/single.js
+[2022-10-11 09:42:08] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a701090b-eXeV4r.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/js/single.js
+[2022-10-11 09:42:08] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:08] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:08] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:08] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/category/non-classe/feed/
+[2022-10-11 09:42:08] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:08] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a702105c-efZ1xU.tmp
+[2022-10-11 09:42:08] [class-ss-url-fetcher.php:94] Filesize: 1925 bytes
+[2022-10-11 09:42:08] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2022-10-11 09:42:08] [class-ss-url-fetcher.php:192] New filename for static page: /category/non-classe/feed/index.xml
+[2022-10-11 09:42:08] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a702105c-efZ1xU.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/category/non-classe/feed/index.xml
+[2022-10-11 09:42:08] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:08] [class-ss-fetch-urls-task.php:133] Adding 5 URLs to the queue
+[2022-10-11 09:42:08] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:08] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-json/wp/v2/categories/1
+[2022-10-11 09:42:08] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:08] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a70b52ee-27MhrG.tmp
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:94] Filesize: 697 bytes
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:192] New filename for static page: /wp-json/wp/v2/categories/1\index.html
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a70b52ee-27MhrG.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-json/wp/v2/categories/1\index.html
+[2022-10-11 09:42:09] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:09] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:09] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:09] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel
+[2022-10-11 09:42:09] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a71183d4-l4L9Hr.tmp
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:94] Filesize: 333 bytes
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:109] http_status_code: 301 | content_type: text/html; charset=iso-8859-1
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
+[2022-10-11 09:42:09] [class-ss-fetch-urls-task.php:176] redirect_url: http://localhost/webNavigAction_officiel/
+[2022-10-11 09:42:09] [class-ss-fetch-urls-task.php:185] This is a redirect to a trailing slashed version of the same page; adding new URL to the queue
+[2022-10-11 09:42:09] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/library/css/ajax-loader.gif
+[2022-10-11 09:42:09] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a711b201-btLCut.tmp
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:94] Filesize: 29390 bytes
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:109] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
+[2022-10-11 09:42:09] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/library/css/fonts/slick.eot
+[2022-10-11 09:42:09] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a7171de0-neKYbq.tmp
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:94] Filesize: 29390 bytes
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:109] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
+[2022-10-11 09:42:09] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/library/css/fonts/slick.woff
+[2022-10-11 09:42:09] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:09] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a71c1b33-4PFj1u.tmp
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:94] Filesize: 29390 bytes
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:109] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/library/css/fonts/slick.ttf
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a722274d-ZsrGOs.tmp
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:94] Filesize: 29390 bytes
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:109] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/library/css/fonts/slick.svg
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a7272f8b-ggVC9J.tmp
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:94] Filesize: 29390 bytes
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:109] http_status_code: 404 | content_type: text/html; charset=UTF-8
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:135] We weren't able to establish a filename; deleting temp file
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300.eot
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a72c3930-JMGXgw.tmp
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:94] Filesize: 24453 bytes
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300.eot
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a72c3930-JMGXgw.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300.eot
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300.woff2
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a72d04f8-TuVfne.tmp
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:94] Filesize: 23248 bytes
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/woff2
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300.woff2
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a72d04f8-TuVfne.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300.woff2
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300.woff
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a72d6ce9-zCelmw.tmp
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:94] Filesize: 30024 bytes
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/woff
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300.woff
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a72d6ce9-zCelmw.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300.woff
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300.ttf
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a72dd1bd-THQjy1.tmp
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:94] Filesize: 63388 bytes
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/ttf
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300.ttf
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a72dd1bd-THQjy1.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300.ttf
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300.svg
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a72e6803-tC79Vr.tmp
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:94] Filesize: 76 bytes
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/svg+xml
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300.svg
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a72e6803-tC79Vr.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300.svg
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300italic.eot
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a72ea84b-jHCU0p.tmp
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:94] Filesize: 19561 bytes
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300italic.eot
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a72ea84b-jHCU0p.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300italic.eot
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300italic.woff2
+[2022-10-11 09:42:10] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:10] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a72f1975-zdbRIh.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 17640 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/woff2
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300italic.woff2
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a72f1975-zdbRIh.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300italic.woff2
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300italic.woff
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a7302bf7-I1Zmi6.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 22452 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/woff
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300italic.woff
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a7302bf7-I1Zmi6.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300italic.woff
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300italic.ttf
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a73086ec-jUxEDp.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 39248 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/ttf
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300italic.ttf
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a73086ec-jUxEDp.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300italic.ttf
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300italic.svg
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a730e775-wh54xu.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 82 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/svg+xml
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300italic.svg
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a730e775-wh54xu.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-300italic.svg
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-regular.eot
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a731294e-AyvgRQ.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 26668 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-regular.eot
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a731294e-AyvgRQ.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-regular.eot
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-regular.woff2
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a73190b4-ctD22W.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 23484 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/woff2
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-regular.woff2
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a73190b4-ctD22W.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-regular.woff2
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-regular.woff
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a73218bf-vr5apg.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 28660 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/woff
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-regular.woff
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a73218bf-vr5apg.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-regular.woff
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-regular.ttf
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a732ad3f-GlL7MO.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 60524 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/ttf
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-regular.ttf
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a732ad3f-GlL7MO.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-regular.ttf
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-regular.svg
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a733b589-kC2z9Z.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 80 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/svg+xml
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-regular.svg
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a733b589-kC2z9Z.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-regular.svg
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-italic.eot
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a733f886-DZTjCi.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 27726 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-italic.eot
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a733f886-DZTjCi.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-italic.eot
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-italic.woff2
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a734c465-gxYl4R.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 24440 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/woff2
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-italic.woff2
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a734c465-gxYl4R.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-italic.woff2
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-italic.woff
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a735a1a3-P0qIqC.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 29836 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/woff
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-italic.woff
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a735a1a3-P0qIqC.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-italic.woff
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-italic.ttf
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a73703a8-rHB5vx.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 60936 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/ttf
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-italic.ttf
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a73703a8-rHB5vx.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-italic.ttf
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-italic.svg
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a738f578-3vAqeI.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 79 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/svg+xml
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-italic.svg
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a738f578-3vAqeI.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-italic.svg
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700.eot
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a7393914-UI4zKl.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 26105 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700.eot
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a7393914-UI4zKl.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700.eot
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700.woff2
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a73a04f7-BbE4Xl.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 22992 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/woff2
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700.woff2
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a73a04f7-BbE4Xl.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700.woff2
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700.woff
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a73b4f12-OHrs2b.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 28052 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/woff
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700.woff
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a73b4f12-OHrs2b.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700.woff
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700.ttf
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a73d450c-JTeuXn.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 59032 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/ttf
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700.ttf
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a73d450c-JTeuXn.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700.ttf
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700.svg
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a73eadad-sJ2V2w.tmp
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:94] Filesize: 76 bytes
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/svg+xml
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700.svg
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a73eadad-sJ2V2w.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700.svg
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700italic.eot
+[2022-10-11 09:42:11] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:11] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a73ef52e-Z10cwd.tmp
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:94] Filesize: 27882 bytes
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/vnd.ms-fontobject
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700italic.eot
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a73ef52e-Z10cwd.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700italic.eot
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700italic.woff2
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a740651f-nQxlTi.tmp
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:94] Filesize: 24428 bytes
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/woff2
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700italic.woff2
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a740651f-nQxlTi.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700italic.woff2
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700italic.woff
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a740c957-d5tgtu.tmp
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:94] Filesize: 29920 bytes
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/woff
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700italic.woff
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a740c957-d5tgtu.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700italic.woff
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700italic.ttf
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a7412975-RfNv9l.tmp
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:94] Filesize: 62308 bytes
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: font/ttf
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700italic.ttf
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a7412975-RfNv9l.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700italic.ttf
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700italic.svg
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a7419277-0lQLm6.tmp
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:94] Filesize: 82 bytes
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: image/svg+xml
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700italic.svg
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a7419277-0lQLm6.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/src/library/fonts/lato-v16-latin/lato-v16-latin-700italic.svg
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:12] [class-ss-task.php:44] Status message: [fetch_urls] 23 pages/fichiers sur 67 générés
+[2022-10-11 09:42:12] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
+[2022-10-11 09:42:12] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2022-10-11 09:42:12] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:54] Total pages: 70; Pages remaining: 3
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/author/root/feed/
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a741ee03-3VnqnO.tmp
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:94] Filesize: 1910 bytes
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/rss+xml; charset=UTF-8
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:192] New filename for static page: /author/root/feed/index.xml
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a741ee03-3VnqnO.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/author/root/feed/index.xml
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:133] Adding 5 URLs to the queue
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-json/wp/v2/users/1
+[2022-10-11 09:42:12] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:12] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a749363c-7OxkET.tmp
+[2022-10-11 09:42:13] [class-ss-url-fetcher.php:94] Filesize: 657 bytes
+[2022-10-11 09:42:13] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/json; charset=UTF-8
+[2022-10-11 09:42:13] [class-ss-url-fetcher.php:192] New filename for static page: /wp-json/wp/v2/users/1\index.html
+[2022-10-11 09:42:13] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a749363c-7OxkET.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-json/wp/v2/users/1\index.html
+[2022-10-11 09:42:13] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:13] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:13] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:13] [class-ss-fetch-urls-task.php:57] URL: http://localhost/webNavigAction_officiel/wp-content/themes/aquila/assets/build/js/author.js
+[2022-10-11 09:42:13] [class-ss-fetch-urls-task.php:67] URL is not being excluded
+[2022-10-11 09:42:13] [class-ss-url-fetcher.php:90] Fetching URL and saving it to: C:\WINDOWS\TEMP/63453a75066cd-XwLexa.tmp
+[2022-10-11 09:42:13] [class-ss-url-fetcher.php:94] Filesize: 5347 bytes
+[2022-10-11 09:42:13] [class-ss-url-fetcher.php:109] http_status_code: 200 | content_type: application/javascript
+[2022-10-11 09:42:13] [class-ss-url-fetcher.php:192] New filename for static page: /wp-content/themes/aquila/assets/build/js/author.js
+[2022-10-11 09:42:13] [class-ss-url-fetcher.php:132] Renaming temp file from C:\WINDOWS\TEMP/63453a75066cd-XwLexa.tmp to C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318/wp-content/themes/aquila/assets/build/js/author.js
+[2022-10-11 09:42:13] [class-ss-fetch-urls-task.php:126] Extracting URLs and replacing URLs in the static file
+[2022-10-11 09:42:13] [class-ss-fetch-urls-task.php:133] Adding 0 URLs to the queue
+[2022-10-11 09:42:13] [class-ss-fetch-urls-task.php:144] We're saving this URL; keeping the static file
+[2022-10-11 09:42:13] [class-ss-task.php:44] Status message: [fetch_urls] 67 pages/fichiers sur 70 générés
+[2022-10-11 09:42:13] [class-ss-archive-creation-job.php:145] We're not done with the fetch_urls task yet
+[2022-10-11 09:42:13] [class-ss-archive-creation-job.php:105] Current task: fetch_urls
+[2022-10-11 09:42:13] [class-ss-archive-creation-job.php:121] Performing task: fetch_urls
+[2022-10-11 09:42:13] [class-ss-fetch-urls-task.php:54] Total pages: 70; Pages remaining: 0
+[2022-10-11 09:42:13] [class-ss-task.php:44] Status message: [fetch_urls] 70 pages/fichiers sur 70 générés
+[2022-10-11 09:42:13] [class-ss-archive-creation-job.php:140] We've found our next task: transfer_files_locally
+[2022-10-11 09:42:13] [class-ss-archive-creation-job.php:105] Current task: transfer_files_locally
+[2022-10-11 09:42:13] [class-ss-archive-creation-job.php:121] Performing task: transfer_files_locally
+[2022-10-11 09:42:13] [class-ss-transfer-files-locally-task.php:73] Total pages: 62; Pages remaining: 62
+[2022-10-11 09:42:13] [class-ss-transfer-files-locally-task.php:91] Cannot copy C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318\/wp-json/wp/v2/pages/5\index.html to C:/wamp64/www/webNavigAction_officiel//wp-json/wp/v2/pages/5\index.html
+[2022-10-11 09:42:13] [class-ss-transfer-files-locally-task.php:91] Cannot copy C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318\/wp-json/wp/v2/pages/17\index.html to C:/wamp64/www/webNavigAction_officiel//wp-json/wp/v2/pages/17\index.html
+[2022-10-11 09:42:13] [class-ss-transfer-files-locally-task.php:91] Cannot copy C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318\/wp-json/wp/v2/posts/1\index.html to C:/wamp64/www/webNavigAction_officiel//wp-json/wp/v2/posts/1\index.html
+[2022-10-11 09:42:13] [class-ss-transfer-files-locally-task.php:91] Cannot copy C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318\/wp-json/wp/v2/categories/1\index.html to C:/wamp64/www/webNavigAction_officiel//wp-json/wp/v2/categories/1\index.html
+[2022-10-11 09:42:13] [class-ss-transfer-files-locally-task.php:91] Cannot copy C:\wamp64\www\webNavigAction_officiel\wp-content\plugins\simply-static/static-files/simply-static-1-1665481318\/wp-json/wp/v2/users/1\index.html to C:/wamp64/www/webNavigAction_officiel//wp-json/wp/v2/users/1\index.html
+[2022-10-11 09:42:13] [class-ss-archive-creation-job.php:145] We're not done with the transfer_files_locally task yet
+[2022-10-11 09:42:13] [class-ss-archive-creation-job.php:105] Current task: transfer_files_locally
+[2022-10-11 09:42:13] [class-ss-archive-creation-job.php:121] Performing task: transfer_files_locally
+[2022-10-11 09:42:13] [class-ss-transfer-files-locally-task.php:73] Total pages: 62; Pages remaining: 0
+[2022-10-11 09:42:13] [class-ss-task.php:44] Status message: [transfer_files_locally] 62 fichiers sur 62 copiés
+[2022-10-11 09:42:13] [class-ss-task.php:44] Status message: [destination_url] Destination URL: <a href="https://gabrieljimenez29200.github.io/webnavigaction/" target="_blank">https://gabrieljimenez29200.github.io/webnavigaction/</a>
+[2022-10-11 09:42:13] [class-ss-archive-creation-job.php:140] We've found our next task: wrapup
+[2022-10-11 09:42:13] [class-ss-archive-creation-job.php:105] Current task: wrapup
+[2022-10-11 09:42:13] [class-ss-archive-creation-job.php:121] Performing task: wrapup
+[2022-10-11 09:42:13] [class-ss-wrapup-task.php:22] Deleting temporary files
+[2022-10-11 09:42:13] [class-ss-task.php:44] Status message: [wrapup] Fin du processus
+[2022-10-11 09:42:13] [class-ss-archive-creation-job.php:136] This task is done and there are no more tasks, time to complete the job
+[2022-10-11 09:42:13] [class-ss-archive-creation-job.php:159] Completing the job
+[2022-10-11 09:42:13] [class-ss-archive-creation-job.php:269] Status message: [done] Effectué ! Fini en 00:00:15
